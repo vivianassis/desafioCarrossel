@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url(https://www.poriart.com/uploads/8/4/2/0/84202942/sarah-transparent_orig.png);
+    background-attachment: fixed;
+    background-position-x: 45em;
+    background-position-y: -3em;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 200, 237);
+}
+
+.header {
+    background-color: aquamarine;
+    padding-left: 33.33%;
+    margin-right: 30%;
+    width: 40%;
+    align-content: center;
+}
+
+.mostrando {
+    height: 480px;
+    width: 840px;
+    overflow: hidden;
+    margin: 5%;
+    border: 10px solid pink;
+    border-radius: 20px;
+}
+
+.imagens {
+    height: 480px;
+    width: 500%;
+    background-color: rgb(255, 200, 237);
+    animation-name: imagens;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-direction: normal;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-fill-mode: initial;
+}
+
+img {
+    height: 480px;
+    width: 19.9%;
+}
+
+.footer {
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    width: auto;
+    padding: 0.5%;
+    margin-right: 30%;
+    align-content: center;
+    padding-left: 1%;
+}
+
+.footer .esquerda {
+    display: flexbox;
+    width: 50%;
+    float: left;
+}
+
+.footer .direita {
+    display: flexbox;
+    width: 50%;
+    float: inline-end;
+}
+
+@keyframes imagens {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0%;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    95% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -400%;
+    }
+}
