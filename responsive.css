@@ -28,8 +28,6 @@
         margin-bottom: 1%;
         display: flexbox;
         flex-direction: row-reverse;
-        padding-inline-start: 20px;
         padding-right: 10px;
-        width: auto;
     }
 }
