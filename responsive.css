@@ -1,9 +1,9 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
     body {
         background-color: rgb(252, 215, 252);
         color: rgb(119, 69, 69);
-        background-attachment: initial;
-        background-size: 23%;
+        background-attachment: local;
+        background-size: 15%;
         background-position-x: 100%;
         background-position-y: 100%;
     }
